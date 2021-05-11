@@ -132,7 +132,7 @@ const rootColors = {
 }
 module.exports = {
   mode: 'jit',
-  darkMode: false,
+  darkMode: 'class',
   corePlugins: {
     container: false,
   },
