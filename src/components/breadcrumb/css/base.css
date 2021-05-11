@@ -1,0 +1,31 @@
+@layer base {
+  .cmp-breadcrumb {
+    @apply block;
+  }
+
+  .cmp-breadcrumb__list {
+    @apply flex flex-wrap p-0 my-4 list-none;
+  }
+
+  .cmp-breadcrumb__item {
+    @apply pl-2;
+
+    &:first-child { @apply pl-0; }
+
+    &::after {
+      @apply float-left pr-2 font-normal text-text;
+      content: '/';
+    }
+
+    &:first-child::after { content: none; }
+  }
+
+  .cmp-breadcrumb__item--active { @apply font-semibold; }
+
+  .cmp-breadcrumb__item-link {
+    @apply text-text-muted;
+    @apply hover:focus:text-fill-accent-hover;
+  }
+
+  .cmp-breadcrumb__item-link::after {}
+}

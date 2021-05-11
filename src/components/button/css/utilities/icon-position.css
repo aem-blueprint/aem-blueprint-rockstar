@@ -1,0 +1,4 @@
+@layer utilities {
+  .button--icon-position\:after .cmp-button { @apply inline-flex flex-row-reverse; }
+  .button--icon-position\:after .cmp-button .cmp-button__text { --tw-space-x-reverse: 1; }
+}

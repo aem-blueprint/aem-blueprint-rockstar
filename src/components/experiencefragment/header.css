@@ -1,0 +1,5 @@
+@layer base {
+  #logo {
+    @apply w-6;
+  }
+}

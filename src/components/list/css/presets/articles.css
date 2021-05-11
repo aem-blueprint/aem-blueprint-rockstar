@@ -1,0 +1,24 @@
+@layer components {
+  .list.list--preset\:articles {
+    .cmp-list {
+      @apply flex flex-col gap-y-8;
+    }
+
+    .cmp-list__item-link {
+      @apply flex flex-col mb-2 no-underline gap-y-2;
+    }
+
+    .cmp-list__item-title {
+      @apply block text-2xl;
+      @apply hover:underline;
+    }
+
+    .cmp-list__item-date {
+      @apply font-light no-underline text-text-muted;
+    }
+
+    .cmp-list__item-description {
+      @apply prose text-text;
+    }
+  }
+}

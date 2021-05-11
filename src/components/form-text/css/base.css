@@ -1,0 +1,27 @@
+@layer base {
+  [multiple],[type=date],[type=datetime-local],[type=email],[type=month],[type=number],[type=password],[type=search],[type=tel],[type=text],[type=time],[type=url],[type=week],select,textarea {
+    @apply text-base leading-normal transition-all duration-300 border rounded-none outline-none appearance-none bg-fill text-text-muted border-text-muted;
+    @apply hover:text-text-hover hover:bg-fill-hover;
+    @apply focus:text-text-hover focus:bg-fill-hover;
+    padding: var(--padding-y, var(--padding, .75rem)) var(--padding-x, var(--padding, .75rem));
+  }
+
+  .cmp-form select {
+    @apply bg-no-repeat cursor-pointer;
+    background-position: calc(100% - 1rem) center;
+    background-size: 1rem;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='currentColor'%3e%3cpath fill='currentColor' fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+    /* clip-path: path('M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'); */
+  }
+
+  .container:not(.form\:simple):not(.form\:underline):not(.form\:solid) {
+    label { @apply text-text-muted; }
+    .cmp-form-text__help-block {}
+    .cmp-form-text__textarea, .cmp-form-text__text { @apply block w-full text-text; }
+  }
+  
+  [class*=form\:outline] .cmp-form-text__textarea, [class*=form\:outline] .cmp-form-text__text {
+    @apply bg-text text-fill border-fill;
+    @apply hover:focus:bg-text-hover hover:focus:text-fill-hover hover:focus:border-fill-hover;
+  }
+}

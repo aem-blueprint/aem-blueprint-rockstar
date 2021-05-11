@@ -1,0 +1,8 @@
+@layer components {
+  .container.form\:simple {
+    .cmp-form-text__textarea, .cmp-form-text__text, .cmp-form-options__field {
+      @apply block w-full border rounded-md shadow-sm;
+      @apply focus:border-fill-muted focus:ring focus:ring-DEFAULT focus:ring-opacity-50;
+    }
+  }
+}

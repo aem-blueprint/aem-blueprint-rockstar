@@ -1,0 +1,30 @@
+@layer base {
+  .cmp-download {
+    @apply p-4 border border-opacity-50 rounded border-text gap-y-2;
+  }
+  .cmp-download__title {
+    @apply mt-0;
+  }
+  .cmp-download__title-link {}
+  .cmp-download__description {
+    @apply italic text-text text-opacity-80;
+  }
+  .cmp-download__properties {
+    @apply flex-col my-2 gap-y-2;
+  }
+  .cmp-download__property {
+    @apply flex gap-x-2;
+  }
+  .cmp-download__property-label {
+    @apply font-medium text-text;
+    &:after {
+      content: ':';
+    }
+  }
+  .cmp-download__property-content {}
+  .cmp-download__property--filename {}
+  .cmp-download__property--size {}
+  .cmp-download__property--format {}
+  .cmp-download__action {}
+  .cmp-download__action-text {}
+}
