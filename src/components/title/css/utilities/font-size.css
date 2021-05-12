@@ -1,0 +1,6 @@
+.title.text-4xl .cmp-title__text { @apply text-4xl; }
+.title.text-5xl .cmp-title__text { @apply text-5xl; }
+.title.text-6xl .cmp-title__text { @apply text-6xl; }
+.title.text-7xl .cmp-title__text { @apply text-7xl; }
+.title.text-8xl .cmp-title__text { @apply text-8xl; }
+.title.text-9xl .cmp-title__text { @apply text-9xl; }

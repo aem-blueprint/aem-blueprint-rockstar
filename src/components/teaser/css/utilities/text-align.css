@@ -1,5 +1,5 @@
 @layer utilities {
-  .var\:text-left .cmp-image { justify-content: flex-start; }
-  .var\:text-center .cmp-image { justify-content: center; }
-  .var\:text-right .cmp-image { justify-content: flex-end; }
+  .var\:text-left .cmp-image, .var\:text-left .cmp-teaser__action-container { justify-content: flex-start; }
+  .var\:text-center .cmp-image, .var\:text-left .cmp-teaser__action-container { justify-content: center; }
+  .var\:text-right .cmp-image, .var\:text-left .cmp-teaser__action-container { justify-content: flex-end; }
 }

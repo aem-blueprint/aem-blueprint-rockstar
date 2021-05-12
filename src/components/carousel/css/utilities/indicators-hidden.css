@@ -1,0 +1,3 @@
+@layer utilities {
+  .carousel--indicators\:none .cmp-carousel__indicators { @apply hidden; }
+}

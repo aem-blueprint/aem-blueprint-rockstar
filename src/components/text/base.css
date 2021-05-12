@@ -14,3 +14,17 @@
   .var\:text-center .cmp-text { @apply text-center; }
   .var\:text-right .cmp-text { @apply text-right; }
 }
+
+  .text.text-xs .cmp-text { @apply text-xs; }
+  .text.text-sm .cmp-text { @apply text-sm; }
+  .text.text-base .cmp-text { @apply text-base; }
+  .text.text-lg .cmp-text { @apply text-lg; }
+  .text.text-xl .cmp-text { @apply text-xl; }
+  .text.text-2xl .cmp-text { @apply text-2xl; }
+  .text.text-3xl .cmp-text { @apply text-3xl; }
+  .text.text-4xl .cmp-text { @apply text-4xl; }
+  .text.text-5xl .cmp-text { @apply text-5xl; }
+  .text.text-6xl .cmp-text { @apply text-6xl; }
+  .text.text-7xl .cmp-text { @apply text-7xl; }
+  .text.text-8xl .cmp-text { @apply text-8xl; }
+  .text.text-9xl .cmp-text { @apply text-9xl; }

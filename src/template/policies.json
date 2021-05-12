@@ -6317,6 +6317,14 @@
                             "cq:styleId": "teaser--title:h6",
                             "cq:styleLabel": "Title H6"
                           }
+                        },
+                        "item5": {
+                          "@": {
+                            "jcr:primaryType": "nt:unstructured",
+                            "cq:styleClasses": "text-4xl text-5xl text-6xl text-7xl text-8xl text-9xl",
+                            "cq:styleId": "teaser--title:h6",
+                            "cq:styleLabel": "Title 4xl"
+                          }
                         }
                       }
                     }

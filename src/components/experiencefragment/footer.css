@@ -1,0 +1,5 @@
+@layer components {
+  @screen sm {
+    .experiencefragment.footer .container.var\:flex-row > .cmp-container { @apply flex-col; }
+  }
+}

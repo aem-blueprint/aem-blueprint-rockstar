@@ -1,8 +1,9 @@
 @layer components {
   .teaser--preset\:circle-icon-half-above .cmp-teaser__image {
-    @apply rounded-full border-[5px] absolute -top-8;
-    background-color: theme('colors.light.primary.DEFAULT');
+    @apply rounded-full border-[5px] w-[10rem] h-[10rem];
     border-color: white;
   }
-  .teaser--preset\:circle-icon-half-above .cmp-teaser__content { @apply pt-8 pb-6; }
+
+  .teaser--preset\:circle-icon-half-above.teaser.teaser--image-size\:icon .cmp-image__image { @apply w-full h-full; }
+  .teaser--preset\:circle-icon-half-above .cmp-teaser__content { @apply pb-6 pt-14; }
 }

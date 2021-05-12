@@ -2,6 +2,7 @@
   .cmp-teaser {
     @apply flex overflow-hidden bg-fill text-text;
     flex-direction: var(--flex-direction);
+    justify-content: var(--justify-content, flex-start);
     border-radius: var(--teaser-border-radius, 0);
     padding: var(--padding, 0);
     box-shadow: var(--box-shadow, none);

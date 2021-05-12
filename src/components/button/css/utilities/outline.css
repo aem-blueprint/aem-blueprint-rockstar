@@ -5,4 +5,6 @@
     @apply hover:bg-fill-hover hover:text-text-hover hover:border-fill-hover;
     @apply focus:bg-text-hover focus:text-text-hover focus:border-fill-hover;
   }
+
+  [class*=button\:outline] .cmp-button__icon { @apply bg-fill; }
 }
