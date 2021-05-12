@@ -139,10 +139,10 @@ module.exports = {
   theme: {
     extend: {
       gridTemplateColumns: {
-        '25-75': 'calc(25% - calc(var(--gap, 0) / 2)) calc(75% - calc(var(--gap, 0) / 2))',
-        '75-25': 'calc(75% - calc(var(--gap, 0) / 2)) calc(25% - calc(var(--gap, 0) / 2))',
-        '33-66': 'calc(33% - calc(var(--gap, 0) / 2)) calc(66% - calc(var(--gap, 0) / 2))',
-        '66-33': 'calc(66% - calc(var(--gap, 0) / 2)) calc(33% - calc(var(--gap, 0) / 2))',
+        '25-75': '1fr 3fr',
+        '75-25': '3fr 1fr',
+        '33-66': '1fr 2fr',
+        '66-33': '2fr 1fr',
       },
       typography: {
         DEFAULT: {
