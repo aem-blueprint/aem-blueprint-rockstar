@@ -1,0 +1,6 @@
+@layer utilities {
+  .container.var\:scroll-snap-y > .cmp-container { scroll-snap-type: y mandatory; scroll-behavior: smooth; }
+  .container.var\:scroll-snap-x > .cmp-container { scroll-snap-type: x mandatory; scroll-behavior: smooth; }
+  .container.var\:scroll-snap-start { scroll-snap-align: start; }
+  .container.var\:scroll-snap-end { scroll-snap-align: end; }
+}

@@ -1,0 +1,27 @@
+@layer components {
+  .scroll-snap-y { scroll-snap-type: y mandatory; scroll-behavior: smooth; }
+  .carousel--preset\:full-screen .cmp-carousel__content { 
+    @apply grid grid-cols-1; 
+    
+  }
+  .carousel--preset\:full-screen .cmp-carousel__item { 
+    @apply block min-h-screen min-w-[100vw]; 
+    scroll-snap-align: start;
+  }
+  .carousel--preset\:full-screen .cmp-carousel__item > *, 
+  .carousel--preset\:full-screen .cmp-carousel__item > * > * { @apply h-full; }
+  .carousel--preset\:full-screen .cmp-carousel__indicators {
+    @apply fixed left-[2rem] right-auto top-10 bottom-[3%] flex-col justify-between z-10;
+  }
+  .carousel--preset\:full-screen .cmp-carousel__indicators:before {
+    content: "";
+    @apply w-[2px] h-full block bg-[red] absolute left-1/2 -translate-x-1/2 transform;
+  }
+  .carousel--preset\:full-screen .cmp-carousel__actions { @apply hidden; }
+  .carousel--preset\:full-screen .cmp-carousel__indicator {
+    @apply w-4 h-4 bg-[white] border-2 border-[red];
+  }
+  .carousel--preset\:full-screen .cmp-carousel__indicator--active {
+    @apply bg-[red];
+  }
+}

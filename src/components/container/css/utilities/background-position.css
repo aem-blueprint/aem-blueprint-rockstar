@@ -1,0 +1,15 @@
+@layer utilities {
+  .container.var\:bg-position-top { --bg-position-y: top; }
+  .container.var\:bg-position-right { --bg-position-x: right; }
+  .container.var\:bg-position-bottom { --bg-position-y: bottom; }
+  .container.var\:bg-position-left { --bg-position-x: left; }
+
+  [class*="var\:bg-position"] > .cmp-container {
+    background-position: var(--bg-position-x, center) var(--bg-position-y, center);
+  }
+  .container.var\:bg-contain > .cmp-container { background-size: contain !important; }
+  .container.var\:bg-size-100 > .cmp-container { background-size: 100% !important; }
+  .container.var\:bg-size-75 > .cmp-container { background-size: 75% !important; }
+  .container.var\:bg-size-50 > .cmp-container { background-size: 50% !important; }
+  .container.var\:bg-size-25 > .cmp-container { background-size: 25% !important; }
+}

@@ -1,26 +1,15 @@
 @layer components {
   html:not(.aem-AuthorLayer-Edit) .container--preset\:hero > .cmp-container { @apply h-[75vh] flex justify-center; }
   @screen md {
-    .h-banner-xs { @apply min-h-[5rem]; }
-    .h-banner-sm { @apply min-h-[10rem]; }
-    .h-banner { @apply min-h-[15rem]; }
-    .h-banner-lg { @apply min-h-[25rem]; }
-    .h-banner-xl { @apply min-h-[30rem]; }
-    .h-banner-2xl { @apply min-h-[50rem]; }
-    .h-banner-1\/4-screen { @apply min-h-[25vh]; }
-    .h-banner-1\/2-screen { @apply min-h-[50vh]; }
-    .h-banner-3\/4-screen { @apply min-h-[75vh]; }
-    .h-banner-screen { @apply min-h-[100vh]; }
-
-    .h-banner-xs > .cmp-container,
-    .h-banner-sm > .cmp-container,
-    .h-banner > .cmp-container,
-    .h-banner-lg > .cmp-container,
-    .h-banner-xl > .cmp-container,
-    .h-banner-2xl > .cmp-container,
-    .h-banner-1\/4-screen > .cmp-container,
-    .h-banner-1\/2-screen > .cmp-container,
-    .h-banner-3\/4-screen > .cmp-container,
-    .h-banner-screen > .cmp-container { @apply h-full; }
+    .h-banner-xs > .cmp-container { @apply min-h-[5rem]; }
+    .h-banner-sm > .cmp-container { @apply min-h-[10rem]; }
+    .h-banner > .cmp-container { @apply min-h-[15rem]; }
+    .h-banner-lg > .cmp-container { @apply min-h-[25rem]; }
+    .h-banner-xl > .cmp-container { @apply min-h-[30rem]; }
+    .h-banner-2xl > .cmp-container { @apply min-h-[50rem]; }
+    html:not(.aem-AuthorLayer-Edit) .h-banner-1\/4-screen > .cmp-container { @apply min-h-[25vh]; }
+    html:not(.aem-AuthorLayer-Edit) .h-banner-1\/2-screen > .cmp-container { @apply min-h-[50vh]; }
+    html:not(.aem-AuthorLayer-Edit) .h-banner-3\/4-screen > .cmp-container { @apply min-h-[75vh]; }
+    html:not(.aem-AuthorLayer-Edit) .h-banner-screen > .cmp-container { @apply min-h-[100vh]; }
   }
 }

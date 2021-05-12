@@ -1,4 +1,5 @@
 @layer base {
+  .experiencefragment.header { @apply sticky top-0; }
   #logo {
     @apply w-6;
   }
