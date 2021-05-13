@@ -5,7 +5,6 @@
   }
   .teaser.teaser--image-size\:overlay .cmp-teaser__image, 
   .teaser.teaser--image-size\:overlay .cmp-teaser__content { 
-    /* block-size: 100%; */
     grid-area: overlay; 
   } 
 
