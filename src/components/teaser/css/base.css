@@ -17,6 +17,7 @@
     justify-content: var(--justify-content, 'flex-start');
     border-radius: var(--teaser-content-border-radius, 0);
     text-align: var(--text-align, left);
+    align-items: var(--align-items, flex-start);
   }
   .cmp-teaser__pretitle {}
   .cmp-teaser__title { @apply m-0; }

@@ -376,8 +376,8 @@ module.exports = {
           'text-muted': 'rgb(121, 164, 224)',
           'text-accent': 'rgb(235, 235, 235)',
           'text-accent-hover': 'rgb(255, 255, 255)',
-          'fill': 'rgb(37, 73, 123)',
-          'fill-hover': 'rgb(30, 64, 113)',
+          'fill': 'rgb(44,44,44)', //#2c2c2c
+          'fill-hover': 'rgb(39,39,39)',
           'fill-muted': 'rgb(30, 64, 113)',
           'fill-accent': 'rgb(40,49,67)',
           'fill-accent-hover': 'rgb(56,60,69)',

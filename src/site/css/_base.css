@@ -5,7 +5,7 @@
   }
 
   #root {
-    @apply flex flex-col min-h-screen;
+    @apply flex flex-col min-h-screen overflow-x-hidden;
 
     > .container { @apply z-0 flex-1 w-full; }
     > .experiencefragment { @apply z-10; }
